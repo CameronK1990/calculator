@@ -13,9 +13,13 @@ function multiply (number1, number2) {
 function divide (number1, number2) {
   return number1 / number2;
 }
+
+function tempuratureF2C (number1) {
+  return (number1 - 32) * .5556
+}
   
 const number1 = parseInt(prompt("Enter a number:"));
-const number2 = parseInt(prompt("Enter another number:"));
-const result = add(number1, number2)
+// const number2 = parseInt(prompt("Enter another number:"));
+const result = tempuratureF2C(number1);
 alert(result);
 
